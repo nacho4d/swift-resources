@@ -7,3 +7,7 @@ Prof of concept. Resources don't work consistently. See below results:
 2. In macos `swift package generate-xcodeproj` then run in xcode: program does **NOT** work as expected (paths are NOT found, because resources are not imported into xcode project). 
 
 3. In linux (via Docker) `swift run`: program does **NOT** work as expected (paths are NOT found). 
+    ```
+    docker build -t res2:latest . 
+    docker run -it res2  
+    ```
