@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: res2
+  buildpack: swift_buildpack
+  command: "'res2'"
+  memory: 128M
+  random-route: true
